@@ -1,5 +1,5 @@
 # PythonKucukProjecikler
-PythonBeginnerLevelProjects
+Python Beginner Level Projects
 
 Hello Everyone,
 
