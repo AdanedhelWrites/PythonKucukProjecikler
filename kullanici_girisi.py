@@ -1,18 +1,18 @@
 import time
 
-sys_kullanıcı_adı = input("Kullanıcı adınızı belirleyiniz :")
-sys_parola = input("Şifrenizi belirleyiniz :")
+real_kullanici_adi = input("Kullanıcı adınızı belirleyiniz :")
+real_parola = input("Şifrenizi belirleyiniz :")
 hak = 3
 while True:
-    kullanıcı_adı =input("Kullanıcı Adı : ")
+    kullanici_adi =input("Kullanıcı Adı : ")
     parola = input("Parola : ")
-    if(kullanıcı_adı != sys_kullanıcı_adı and parola == sys_parola):
+    if(kullanici_adi != real_kullanici_adi and parola == real_parola):
         print("Kullanıcı adınızı hatalı girdiniz!")
         hak -= 1
-    elif(kullanıcı_adı == sys_kullanıcı_adı and parola != sys_parola):
+    elif(kullanici_adi == real_kullanici_adi and parola != real_parola):
         print("Parolanızı hatalı girdiniz!")
         hak -= 1
-    elif (kullanıcı_adı != sys_kullanıcı_adı and parola != sys_parola):
+    elif (kullanici_adi != real_kullanici_adi and parola != real_parola):
         print("Kullanıcı adınızı ve parolanızı hatalı girdiniz!")
         hak -= 1
         if  (hak == 0):
